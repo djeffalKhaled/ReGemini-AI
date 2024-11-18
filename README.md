@@ -2,10 +2,10 @@
 This is a web-app representing a AI-chatbot using the Gemini API to dynamically fetch AI responses. Project built with React and Typescript.
 
 ## How to use:
+- Download the github source code and open in it VS Code
+- Open the terminal and type: npm run dev
 - For the AI to work you must first generate your own API key and replace the API_KEY variable in App.tsx with it 
 
-## Website Link:
-- LINK
 
 ## Libraris
 - <a href = "https://vite.dev/" style = "color: gray;">React + Vite </a>
