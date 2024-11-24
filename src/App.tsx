@@ -3,7 +3,7 @@ import './style/App.css'
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
 // first off put your own API key here!
-const API_KEY = 'AIzaSyCJ6DGEnmzuFYf9uZMgHPS8l9d6jzx3GJI'; 
+const API_KEY = 'PUT_YOUR_API_KEY_HERE!'; 
 
 
 function App() {
