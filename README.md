@@ -1,5 +1,5 @@
 # ReGemini-AI
-This is a web-app representing a AI-chatbot using the Gemini API to dynamically fetch AI responses. Project built with React and Typescript.
+This is a web-app representing a AI-chatbot using the Gemini API to dynamically fetch AI responses.
 
 ## How to use:
 - Download the github source code and open in it VS Code
