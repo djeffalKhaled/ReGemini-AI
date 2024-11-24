@@ -1,0 +1,62 @@
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+button {
+  background-color: rgba(20, 20, 20, 0.756);
+  backdrop-filter: blur(2px);
+  height: 35px;
+  width: 100px;
+  margin-left: 10px;
+  border-radius: 10px;
+  border: 2px solid rgb(83, 83, 83);
+  cursor: pointer;
+  transition: border-color 0.25s, transform 0.5s ease;
+}
+button:hover {
+  border-color: #6486ff;
+  transform: translate(0%, -1%); 
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+input {
+  background-color: rgba(20, 20, 20, 0.756);
+  backdrop-filter: blur(2px);
+  height: 30px;
+  width: 200px;
+  border-radius: 10px;
+  border: 2px solid rgb(83, 83, 83) !important;
+  text-align: center;
+  transition: 
+    border 0.5s ease-in-out,
+    transform 1s ease;
+}
+input:hover {
+  border: 2px solid #6486ff !important;
+  transform: translate(0%, -1%); 
+}
+
+.GeminiOutput {
+  margin-top: 100px;
+  background-color: rgba(46, 46, 46, 0.07);
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 20px;
+  backdrop-filter: blur(2px);
+  border: 2px solid rgba(255, 255, 255, 0.50);
+  transition: 
+    border 1s ease,
+    transform 1s ease;
+}
+.GeminiOutput:hover {
+  border: 2px solid #6486ff;
+  transform: translate(0%, -1%); 
+}

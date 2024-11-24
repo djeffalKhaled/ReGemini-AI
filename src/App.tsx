@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react';
-import './App.css'
+import './style/App.css'
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
 // first off put your own API key here!
-const API_KEY = 'PUT UR API HERE OR IT WONT WORK!'; 
+const API_KEY = 'AIzaSyCJ6DGEnmzuFYf9uZMgHPS8l9d6jzx3GJI'; 
 
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
       const genAI = new GoogleGenerativeAI(API_KEY);
       const model = genAI.getGenerativeModel({ 
         model: "gemini-1.5-flash", 
-        systemInstruction: "For every question make an unnecessarily detailed answer!" // this is cursed
+        systemInstruction: "Troll the user" // ;)
       });
       const prompt = inputval; // user prompt
       const result = await model.generateContent(prompt); // awaits till a response is generated
@@ -42,7 +42,7 @@ function App() {
   return (
     <>
       <div className = "TitleBar">
-        <h1>Gemini API</h1>
+        <h1>ReGemini</h1>
       </div>
       <div className = "Form">
           <input onChange={UpdateInput} value={inputval} placeholder = 'Message Gemini'></input>
