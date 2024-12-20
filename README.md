@@ -1,5 +1,5 @@
-# ReGemini-AI
-This is a web-app representing a AI-chatbot using the Gemini API to dynamically fetch AI responses.
+# Regem
+React app for testing the Gemini API.
 
 ## How to use:
 - Download the github source code and open in it VS Code
